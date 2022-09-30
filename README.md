@@ -39,3 +39,4 @@ android { // thẻ android chứa compileSdkVersion 28
        }
    }
 }
+5. Mở terminal project gõ lệnh : flutter build apk để lấy file apk -> Vào thư mục project/build/app/outputs/flutter-apk/ : để lấy apk flutter build appbundle --target-platform android-arm,android-arm64,android-x64 để lấy file appbundle -> Vào thư mục project/build/app/outputs/bundle/release/ : để lấy appbundle
